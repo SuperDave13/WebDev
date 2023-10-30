@@ -4,9 +4,38 @@
    
     <title>💚Dave's Personal Website</title> <!--The title will display on tab as
     well as be used if a bookmark is saved-->
+
+ <!--Below is an example of creating an internal css style so that if you have many elements like horizontal
+rule (hr) you can style all of them on a single html page.  If you want accross entire website and every
+page then you will create a folder and file css/styles.css to house the <style> below. Note the .css tells
+the browser what to expect.-->   
+    <!--<style>
+
+        body {
+            background-color: #38598b;
+        }
+
+        hr {
+
+           
+            border-style: none;
+            border-top-style: dotted;
+            border-color: grey;
+            border-width: 5px;
+            width: 5%;
+        }
+
+    </style>
+-->
+    <link rel="stylesheet" href="css/styles.css"> <!--This is a link back to the styles.css file so the 
+    browser knows to go to that page to get all of the global or external styles for every html page.-->
+
 </head>
 <body> <!--Below will display image that is stored locally with index.html, can
 also have subfolders or a link to an image from the internet-->
+
+<!--If I wanted to change the background color of the index.html page I could use an inline css to the body
+element such as <body background-color: #38598b;>-->
     
     <table cellspacing="20"><!--Insert a table element or tag-->
         <tr><!--Table Row and below is Table Data. Table data is the cell of the row therefore creating
